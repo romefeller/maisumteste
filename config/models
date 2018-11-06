@@ -1,0 +1,25 @@
+Usuario
+    nome     Text
+    email    Text
+    senha    Text
+    UniqueUsuario email
+    deriving Show 
+    
+Aluno json
+    nome     Text
+    idade    Int
+    ra       Text
+    UniqueRA ra
+    deriving Show
+
+Matricula json 
+    alunoid       AlunoId 
+    discid        DisciplinaId
+    matriculadoEm Day 
+    deriving Show
+    
+Disciplina json 
+    nome          Text 
+    codigo        Text 
+    cargaHoraria  Int
+    deriving Show
